@@ -4,8 +4,8 @@ export const Site = 'https://astro-blog-zozo.pages.dev';
 export const SiteLanguage = 'zh';
 export const SiteTitle = '无尽光芒';
 export const SiteDescription = '踏歌长行，梦想永在';
-export const FooterDescription = '肆意闪耀';
-export const AdminName = 'Ladit';
+export const FooterDescription = 'Be Nice Everyday';
+export const AdminName = 'Henalecam';
 export const PageSize = 15;
 
 // socialPlatform => userName
