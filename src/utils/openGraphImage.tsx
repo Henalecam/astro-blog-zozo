@@ -13,7 +13,7 @@ import { FooterDescription, Site, SiteDescription, SiteTitle } from '~/config';
 
 // or use a png file
 const logoImage = `data:image/png;base64,${(
-	await fs.promises.readFile('src/assets/h-logo.png')
+	await fs.promises.readFile('src/assets/og-logo.png')
 ).toString('base64')}`;
 
 // the font file is integrated to prevent Github action failure for now.
