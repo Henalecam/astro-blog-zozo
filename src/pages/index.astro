@@ -1,6 +1,6 @@
 ---
 import { Picture } from 'astro:assets';
-import img from '~/assets/shaggy.svg';
+import img from '~/assets/undraw_dog.svg';
 import { SiteDescription, SiteTitle } from '~/config';
 import MarkdownLayout from '~/layouts/MarkdownLayout.astro';
 ---
@@ -12,35 +12,30 @@ import MarkdownLayout from '~/layouts/MarkdownLayout.astro';
 	currentNav="Home"
 >
 	<div class="flex flex-col items-center gap-4 xl:flex-row">
-		<Picture class="lg:max-w-md" src={img} formats={['avif', 'webp']} alt="a dog" loading="eager" />
+		<Picture class="lg:max-w-md" src={img} formats={['avif', 'webp']} alt="Shaggy Rogers Carrying Scooby doo" loading="eager" />
 		<div>
 			<h1>Hello there! I am Henalecam</h1>
 			<p>
-				This is a blog to describe my journey in the world of programming and technology. I am a
-				software developer and I am passionate about learning new things. This blog is a way to
-				share my knowledge and experiences with the world. I hope you find something useful here.
+				This is a blog to describe my journey in the world professional and personal, only to share my thoughts and experiences to who cares and to me in the future.
 			</p>
 			<ul class="list-disc">
 				<li>
-					Fast and light weight. Lighthouse 4 * 100/100 on desktop. 1 point decreased on mobile.
+					My name is Henrique Alexandre
 				</li>
 				<li>
-					<a href="https://astro.build">Astro 4</a> with no other UI frameworks integrated for better
-					performance
+					All my social media is in the corner of the page.
+				<li>
+					Ruby Developer, Computer Science student and WebDesigner with a lot of hobbies.
 				</li>
 				<li>
-					mobile-friendly responsive design with <a href="https://tailwindcss.com/">Tailwind CSS</a>
+					I don't have any specific public or topics, only blogging.
 				</li>
 				<li>
-					Light / dark theme derived from <a href="https://github.com/varkai/hugo-theme-zozo"
-						>hugo-theme-zozo</a
-					>
+					In english because I think is the way to show my view to reach more people.
 				</li>
-				<li>Markdown post support with emoji shortcode, katex</li>
-				<li>static search with <a href="https://pagefind.app">Pagefind</a></li>
-				<li>comment system powered by <a href="https://github.com/giscus/giscus">giscus</a></li>
-				<li>SEO-friendly setup with canonical URLs and OpenGraph data</li>
-				<li>RSS / Sitemap.xml / dynamic open graph image generation</li>
+				<li>
+					This blog template was made by <a href="https://github.com/ladit/astro-blog-zozo">Ladit</a>
+				</li>
 			</ul>
 		</div>
 	</div>
