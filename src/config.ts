@@ -4,7 +4,7 @@ export const Site = 'https://astro-blog-zozo.pages.dev';
 export const SiteLanguage = 'en';
 export const SiteTitle = 'Henalecam';
 export const SiteDescription = 'Just another blog';
-export const FooterDescription = 'Be nice more than clever';
+export const FooterDescription = 'Be light.';
 export const AdminName = 'Henalecam';
 export const PageSize = 15;
 
