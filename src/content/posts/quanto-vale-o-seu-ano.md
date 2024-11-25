@@ -1,11 +1,12 @@
 ---
-Slug: quanto-vale-o-seu-ano
-Title: Quanto vale o seu ano
-Description: O contraste entre os salários no Brasil e nos EUA é gritante. Receber o salário mínimo no Brasil não é suficiente para conquistar objetivos simples, como dar entrada em uma moto ou em uma casa. Isso reflete não só uma realidade financeira difícil, mas também um desgaste psicológico constante. Esse texto fala sobre como essa desigualdade motiva a busca por novas oportunidades.
-Date: 2024-11-25T23:30:47+08:00
-Last Modified: 2024-11-25T23:30:47+08:00
-Hidden: false
-Tags:
+slug: quanto-vale-o-seu-ano
+title: Quanto vale o seu ano
+description: O contraste entre os salários no Brasil e nos EUA é gritante. Receber o salário mínimo no Brasil não é suficiente para conquistar objetivos simples, como dar entrada em uma moto ou em uma casa. Isso reflete não só uma realidade financeira difícil, mas também um desgaste psicológico constante. Esse texto fala sobre como essa desigualdade motiva a busca por novas oportunidades.
+date: 2024-11-25T23:30:47+08:00
+image: ../attachments/quantovaleoseuano.jpg
+lastmod: 2024-11-25T23:30:47+08:00
+hidden: false
+tags:
 - motivacao
 - trabalho
 - oportunidade
