@@ -3,9 +3,9 @@ import type { PostHideElements } from '~/content/config';
 export const Site = 'https://astro-blog-zozo.pages.dev';
 export const SiteLanguage = 'en';
 export const SiteTitle = 'Henalecam';
-export const SiteDescription = 'Just another blog';
-export const FooterDescription = 'Be light.';
-export const AdminName = 'Henalecam';
+export const SiteDescription = 'Software Developer • Passionate about building innovative solutions • Exploring opportunities in global markets';
+export const FooterDescription = 'Transforming ideas into reality, one line of code at a time.';
+export const AdminName = 'Henrique Alexandre';
 export const PageSize = 15;
 
 // socialPlatform => userName

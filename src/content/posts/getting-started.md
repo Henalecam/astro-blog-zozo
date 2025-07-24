@@ -1,124 +1,111 @@
 ---
-title: Getting Started🚀
-description: How to use this blog template✨
-date: 2040-03-09T00:00:00+08:00
-hidden: true
+title: "Welcome to My Digital Space 🚀"
+description: "Discover what this blog is about, the stories I share, and how you can make the most of your journey through my thoughts on technology, career, and personal growth."
+date: 2024-12-01T00:00:00+08:00
+hidden: false
 tags:
-  - sample post
-  - theme
+  - welcome
+  - about
+  - blog
+  - introduction
 ---
 
-## Getting Started
+# Welcome to My Digital Space 🚀
 
-Download the [codebase](https://github.com/ladit/astro-blog-zozo) first. [Bun](https://bun.sh) is recommended for this project.
+Welcome to my corner of the internet! I'm **Henrique Alexandre** (henalecam), and this is where I share my journey as a software developer, my thoughts on technology, career insights, and reflections on life in the global tech landscape.
 
-```shell
-# let bun to create a local repo using this template
-bun create ladit/astro-blog-zozo
-bun install
-```
+## What You'll Find Here
 
-### populate your content
+This blog is a mix of technical insights, career reflections, and personal growth stories. Here's what you can expect:
 
-To craft your own site further, check the folders below and modify anything as you wish. Markdown post with frontmatters is supported.
+### 🔧 Technical Content
+- **Development tutorials** and best practices
+- **Technology reviews** and comparisons
+- **Project showcases** and case studies
+- **Industry trends** and future predictions
 
-```
-public              # favicons here
-├── apple-touch-icon.png
-├── favicon.ico
-src
-├── assets
-│   ├── logo.svg    # site logo read in components/Header.astro
-│   ├── og-logo.png # logo image for OG generation. Check src/utils/openGraphImage.tsx for detail
-├── config.ts       # main config
-├── content         # markdown posts and attachments go here
-│   ├── attachments
-│   └── posts
-├── pages
-│   ├── index.astro # index page written in Astro component
-│   └── about.astro # about page written in Astro component
-giscus.example.json # rename to giscus.json for advanced giscus configurations
-```
+### 💼 Career Insights
+- **Professional development** strategies
+- **Market analysis** and opportunities
+- **Skills development** guidance
+- **Remote work** and global opportunities
 
-All frontmatter fields except title are optional. Date field is under ISO 8601 format without quotation marks.
-The posts frontmatter describes as:
+### 🌱 Personal Growth
+- **Learning experiences** and challenges
+- **Goal setting** and achievement
+- **Work-life balance** in tech
+- **Motivation** and inspiration
 
-```yaml
+## My Story in Brief
+
+I'm a **Full-Stack Developer** based in Brazil, passionate about creating solutions that matter. My journey spans frontend and backend development, with expertise in modern web technologies like React, Node.js, and TypeScript.
+
+Currently earning R$ 4,000 monthly in the Brazilian market, I'm actively exploring global opportunities where my skills can be better valued and where I can contribute to projects with worldwide impact.
+
+## Why I Write
+
+Writing helps me:
+- **Organize my thoughts** and learn more deeply
+- **Share experiences** that might help other developers
+- **Connect with like-minded professionals** globally
+- **Document my journey** toward bigger goals
+
+## Recent Highlights
+
+Some of my recent posts that you might find interesting:
+
+- **[Quanto Vale o Seu Ano?](./quanto-vale-o-seu-ano)** - A reflection on professional value and market opportunities
+- **[My Professional Journey](./my-professional-journey)** - Deep dive into my career, skills, and aspirations
+
+## Let's Connect
+
+I believe in the power of community and meaningful connections. Here's how you can reach me:
+
+- **GitHub**: [@henalecam](https://github.com/henalecam) - Check out my projects and contributions
+- **Email**: henriquealexandredec@gmail.com - For professional inquiries and collaborations
+- **Instagram**: [@henalecam](https://instagram.com/henalecam) - Behind-the-scenes content
+- **Twitch**: [henalecam](https://twitch.com/henalecam) - Live coding and tech discussions
+
+## How to Navigate This Blog
+
+### 🏷️ Using Tags
+Posts are organized by tags to help you find relevant content:
+- `career` - Professional development and opportunities
+- `technology` - Technical tutorials and insights
+- `reflexao` - Personal reflections and thoughts
+- `programming` - Coding tips and best practices
+
+### 🔍 Search Feature
+Use the search functionality to find specific topics or technologies you're interested in.
+
+### 📱 Mobile-Friendly
+The blog is optimized for all devices, so you can read comfortably whether you're on desktop, tablet, or mobile.
+
+## What's Coming Next
+
+I'm constantly working on new content. Here's what's in the pipeline:
+
+- **Technical series** on modern React patterns
+- **Career guide** for Brazilian developers seeking global opportunities
+- **Project walkthroughs** of my latest development work
+- **Industry insights** on remote work trends
+
+## Join the Conversation
+
+I love hearing from readers! Feel free to:
+- **Comment** on posts with your thoughts and experiences
+- **Share** content that resonates with you
+- **Suggest** topics you'd like me to write about
+- **Collaborate** on projects or content creation
+
+## Thank You
+
+Thank you for taking the time to visit my blog. Whether you're here to learn something new, find inspiration, or simply explore different perspectives on tech and career, I hope you find value in what I share.
+
+This is more than just a blog—it's a platform for growth, connection, and meaningful dialogue about the future of technology and our place in it.
+
 ---
-slug: my-custom-slug
-title: My awesome title
-description: some desc
-image: ../attachments/100.jpg # hero & social image
-date: 2024-02-26T23:30:47+08:00
-lastmod: 2024-02-26T23:30:47+08:00
-hidden: false # set this to true to make this post hidden from posts list. But the uri is still accessable.
-tags:
-  - demo
-  - theme
-hide: # set a element list to hide in the post page
-  - title
-  - date
-  - lastmod
-  - tags
-  - readingTime
-  - toc
-  - comments
----
-```
 
-Note: to use the Astro `Content Collection` feature, the site content must be placed at `src/content`. In fact, I linked the `src/content` folder to my Obsidian vault for better editing experience.
+*Ready to dive in? Start with my latest posts or explore the archives to discover content that speaks to your interests and goals.*
 
-### comments
-
-Post comments is powered by [giscus](https://github.com/giscus/giscus). So your blog visitors should login Github to leave a comment. Follow instructions [here](https://giscus.app/) to initialize your Github repo, install giscus app, enable discussion and get your parameters to fill in `src/config.ts: GiscusConfig`.
-
-To restrict the domains that can load giscus with your repository's discussions, rename `giscus.example.json` to `giscus.json` and modify it. Document is [here](https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md).
-
-### preview
-
-Build it first by `bun run build` and preview it by `bun run preview` or `bun run preview:wrangler`.
-
-`wrangler` is a cli from Cloudflare. You may install it first.
-
-### deploy to Cloudflare Pages
-
-Refer to [Cloudflare Pages doc](https://developers.cloudflare.com/pages/). You can use `wrangler` cli to upload from local or git integration.
-
-Build settings:
-
-Framework: Astro
-
-Build command: `bun install && bun run build`
-
-Evironments:
-
-```shell
-BUN_VERSION=latest
-NODE_VERSION=v22.11.0
-```
-
-To add a custom domain, check [the doc](https://developers.cloudflare.com/pages/configuration/custom-domains/).
-
-### deploy to Github Pages
-
-Follow [this doc](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
-
-You must have a `<username>.github.io` repo in Github for deploying. You can rename this repo.
-
-In the repository, go to Settings > Pages > Build and deployment. Select `Github Actions` as Source.
-
-Github workflow(`.github/workflows/pages.yaml`) will deploy for you everytime you push to the default branch.
-
-To add a custom domain, check [the doc](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages).
-
-### deploy to Vercel
-
-Link your Github account to Vercel and import your blog repo to it.
-
-Build settings:
-
-Framework: Astro
-
-Build command overwrite: `bun run build`
-
-To add a custom domain, check [the doc](https://vercel.com/docs/projects/domains/add-a-domain).
+**Happy reading, and welcome to the journey!** ✨
